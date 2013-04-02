@@ -356,6 +356,9 @@ header {
 
   p {
     font-size: 2em;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .slider-nav span { @include opacity(0); @include single-transition(opacity, 400ms); }
@@ -413,7 +416,7 @@ header {
   .orbit-wrapper {
     h1 {
       font-size: 6em;
-      padding: 2em 0 0;
+      padding: 2.3em 0 0;
     }
   }
   
